@@ -1,5 +1,5 @@
 {
-  "name": "lama-dev-portfolio",
+  "name": "mambo-3d-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +8,10 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    
   },
+  "homepage": "https://gingi144.github.io/3d",
+
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@react-three/drei": "^9.121.4",
