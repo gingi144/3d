@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://gingi144.github.io/3d",  // 👈 Ensures correct GitHub Pages deployment
+  "homepage": "https://gingi144.github.io/3d", 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
