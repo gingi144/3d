@@ -62,9 +62,9 @@ const Hero = () => {
           I’m Stallone Mambo, a passionate software developer and AI enthusiast currently pursuing a Bachelor’s degree in IT at Jomo Kenyatta University of Agriculture and Technology. I have a strong foundation in web development, data structures, and database management, with experience in building responsive and functional web applications. My interests lie in leveraging AI and automation to enhance digital experiences, optimize processes, and solve real-world problems. I am always eager to learn and explore emerging technologies to create innovative and efficient solutions
           </motion.p>
           <motion.div variants={awardVariants} className="awardList">
-            <motion.img variants={awardVariants} src="/award1.png" alt="" />
-            <motion.img variants={awardVariants} src="/award2.png" alt="" />
-            <motion.img variants={awardVariants} src="/award3.png" alt="" />
+            <motion.img variants={awardVariants} src="award1.png" alt="" />
+            <motion.img variants={awardVariants} src="award2.png" alt="" />
+            <motion.img variants={awardVariants} src="award3.png" alt="" />
           </motion.div>
         </motion.div>
         {/* SCROLL SVG */}
@@ -114,13 +114,13 @@ const Hero = () => {
           className="follow"
         >
           <motion.a variants={followVariants} href="/">
-            <img src="/instagram.png" alt="" />
+            <img src="instagram.png" alt="" />
           </motion.a>
           <motion.a variants={followVariants} href="/">
-            <img src="/facebook.png" alt="" />
+            <img src="facebook.png" alt="" />
           </motion.a>
           <motion.a variants={followVariants} href="/">
-            <img src="/youtube.png" alt="" />
+            <img src="youtube.png" alt="" />
           </motion.a>
           <motion.div variants={followVariants} className="followTextContainer">
             <div className="followText">FOLLOW ME</div>
@@ -134,8 +134,8 @@ const Hero = () => {
           transition={{ duration: 1 }}
           className="certificate"
         >
-          <img src="/certificate.png" alt="" />
-          JKUAT CERTIFICED
+          <img src="certificate.png" alt="" />
+          JKUAT CERTIFIED
           <br />
           PROFESSIONAL
           <br />
@@ -203,7 +203,7 @@ const Hero = () => {
           </Suspense>
         </Canvas>
         <div className="hImg">
-          <img src="/gigs2.png" alt="" />
+          <img src="gigs2.png" alt="" />
         </div>
       </div>
     </div>
